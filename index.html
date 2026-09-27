@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saurav Samdarshi - AIML student and fresher portfolio">
+  <title>Saurav Samdarshi | AIML Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient a1"></div><div class="ambient a2"></div>
+
+  <nav class="navbar">
+    <a class="brand" href="#home">Saurav<span>.</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme" id="themeBtn" aria-label="Toggle theme">☼</button>
+      <a class="intern-btn" href="#contact">Open to Internships</a>
+      <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="socials">
+          <a href="https://github.com/sauravsamdarshi69-eng" target="_blank" rel="noopener">GH</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">in</a>
+          <a href="#contact">✉</a>
+        </div>
+        <p class="kicker">COLLEGE STUDENT • FRESHER</p>
+        <h1>Hi, I'm <span>Saurav Samdarshi</span></h1>
+        <h2>AIML Student • React Developer • UI/UX Designer</h2>
+        <p class="hero-text">
+          I'm a B.Tech AIML student at Bansal Institute of Science and Technology,
+          passionate about software development, UI/UX, AI/ML and building practical
+          solutions through technology.
+        </p>
+        <div class="buttons">
+          <a class="primary" href="resume.pdf" target="_blank">⇩ Download Resume</a>
+          <a class="secondary" href="#projects">View My Projects</a>
+        </div>
+        <div class="student-stats">
+          <div><b>7.85</b><span>CGPA</span></div>
+          <div><b>AIML</b><span>Branch</span></div>
+          <div><b>2</b><span>Featured Projects</span></div>
+          <div><b>10+</b><span>Core Skills</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="glow-ring"></div>
+        <div class="badge badge1">React</div><div class="badge badge2">AI/ML</div>
+        <div class="badge badge3">MERN</div><div class="badge badge4">DSA</div>
+        <div class="profile-wrap">
+          <img src="profile.jpg" alt="Saurav Samdarshi profile photo" class="profile-photo">
+        </div>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="visual-card reveal">
+        <div class="college-shape">
+          <span>LEARN</span><span>BUILD</span><span>GROW</span><span>CREATE</span>
+        </div>
+        <div class="mini-card">
+          <strong>AIML</strong><small>Student & Developer</small>
+        </div>
+      </div>
+      <div class="copy reveal">
+        <p class="kicker">ABOUT ME</p>
+        <h2>Student today, <span>developer tomorrow.</span></h2>
+        <p>
+          I'm Saurav Samdarshi, pursuing my studies in Artificial Intelligence and
+          Machine Learning at Bansal Institute of Science and Technology.
+        </p>
+        <p>
+          I enjoy building responsive interfaces, learning full-stack development,
+          practicing DSA and exploring AI/ML. My goal as a fresher is to keep learning,
+          contribute to real-world projects and grow as a software developer.
+        </p>
+        <div class="about-tags">
+          <span>Problem Solving</span><span>UI/UX</span><span>Teamwork</span>
+          <span>Leadership</span><span>Communication</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="heading reveal">
+        <p class="kicker">ACADEMIC JOURNEY</p>
+        <h2>Education & <span>Profile</span></h2>
+      </div>
+      <div class="edu-grid">
+        <article class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <p class="date">Current</p>
+          <h3>B.Tech / AIML</h3>
+          <h4>Bansal Institute of Science and Technology</h4>
+          <p>Artificial Intelligence & Machine Learning</p>
+          <strong>CGPA: 7.85</strong>
+        </article>
+        <article class="edu-card reveal">
+          <div class="edu-icon">💻</div>
+          <p class="date">Core Focus</p>
+          <h3>Development</h3>
+          <p>React.js, Node.js, Express.js, Tailwind CSS and modern web development.</p>
+        </article>
+        <article class="edu-card reveal">
+          <div class="edu-icon">🤖</div>
+          <p class="date">Interest Area</p>
+          <h3>AI / Machine Learning</h3>
+          <p>Exploring AI/ML concepts and applying technology to practical problems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="heading reveal">
+        <p class="kicker">CURRENT TOOLKIT</p>
+        <h2>My <span>Skills</span></h2>
+        <p>Technologies and professional strengths I bring to student projects.</p>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="heading reveal">
+        <p class="kicker">FEATURED WORK</p>
+        <h2>My <span>Projects</span></h2>
+        <p>Selected academic, hackathon and development work.</p>
+      </div>
+      <div class="projects" id="projectsGrid"></div>
+    </section>
+
+    <section class="section journey">
+      <div class="heading reveal">
+        <p class="kicker">FRESHER JOURNEY</p>
+        <h2>What I'm <span>Working On</span></h2>
+      </div>
+      <div class="journey-grid">
+        <div class="journey-card reveal"><span>01</span><h3>Learning</h3><p>Strengthening programming, DSA, OOP and core computer science concepts.</p></div>
+        <div class="journey-card reveal"><span>02</span><h3>Building</h3><p>Creating practical web and AI/ML projects to turn ideas into working products.</p></div>
+        <div class="journey-card reveal"><span>03</span><h3>Exploring</h3><p>Participating in hackathons and exploring modern development technologies.</p></div>
+        <div class="journey-card reveal"><span>04</span><h3>Looking For</h3><p>Internships, student opportunities and entry-level software development roles.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-art reveal">
+        <div class="speech">Let's<br><span>Connect!</span></div>
+        <div class="contact-photo-wrap"><img src="profile.jpg" alt="Saurav Samdarshi" class="contact-photo"></div>
+      </div>
+      <div class="contact-card reveal">
+        <p class="kicker">GET IN TOUCH</p>
+        <h2>Let's build something <span>great.</span></h2>
+        <p class="muted">I'm open to internships, student projects, hackathons and learning opportunities.</p>
+        <div class="contact-info">
+          <a href="mailto:YOUR_EMAIL@example.com">✉ Add your email</a>
+          <a href="https://github.com/sauravsamdarshi69-eng" target="_blank" rel="noopener">◉ GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">in LinkedIn</a>
+        </div>
+        <form id="contactForm">
+          <div class="row"><input id="name" required placeholder="Your Name"><input id="email" required type="email" placeholder="Your Email"></div>
+          <input id="subject" required placeholder="Subject">
+          <textarea id="message" required rows="4" placeholder="Message"></textarea>
+          <button class="primary" type="submit">Send Message →</button>
+          <p class="status" id="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><b>Saurav<span>.</span></b><p>AIML Student • Fresher • Developer</p></div>
+    <div class="footer-nav"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    <small>© <span id="year"></span> Saurav Samdarshi</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
